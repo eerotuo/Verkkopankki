@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/own_data"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="My information" />
+        <item
+            android:id="@+id/add_account"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add/manage accounts" />
+        <item
+            android:id="@+id/send_money"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send money" />
+        <item
+            android:id="@+id/manage_cards"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Manage cards" />
+        <item
+            android:id="@+id/history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="History" />
+        <item
+            android:id="@+id/card_withdraw"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Withdraw money from card" />
+    </group>
+
+</menu>
